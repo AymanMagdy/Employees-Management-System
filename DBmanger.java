@@ -41,7 +41,7 @@ public class DBmanger {
         try {
             // to start the connection;
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","TUrvPs20");
+            con = DriverManager.getConnection("jdbc:mysql://Your_DB_server/Your_DB_name","Your_DB_user_name","Your_DB_Password");
         } catch (SQLException e){
             e.printStackTrace();
         }
